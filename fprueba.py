@@ -7,7 +7,7 @@ st.write("""PROYECTO FINAL""")
 st.write("""Universidad Nacional de San Agustín de Arequipa
 Escuela Profesional de Ingeniería de Telecomunicaciones""")
 from PIL import Image
-image = Image.open('src="https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png" width="380" height="4200"')
+image = Image.open('https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png')
 
 st.image(image, caption='Sunrise by the mountains')
 st.write("""Ingeniero Renzo Bolivar - Docente DAIE
