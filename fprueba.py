@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 #import seaborn as sns
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 st.write("""PROYECTO FINAL""")
 st.write("""Universidad Nacional de San Agustín de Arequipa
 Escuela Profesional de Ingeniería de Telecomunicaciones""")
