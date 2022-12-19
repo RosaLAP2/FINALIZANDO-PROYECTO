@@ -419,10 +419,7 @@ Se delimito la importancia de imputacion de datos y la distancia euclidiana""" )
 
 
 
-import mymodel as m
-st.write("""Datos""")
-window=st.slider("Interaccion")
-st.write(ndatos.rum(window=window))
+
 
 st.write("""REFERENCIAS""" )
 st.write("""Profesor de Matematicas: John Gabriel Muñoz Cruz https://www.linkedin.com/in/jgmc
