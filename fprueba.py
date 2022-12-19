@@ -390,17 +390,17 @@ df = pd.DataFrame(
 st.map(df)
 
 
-from scipy.spatial.distance import euclidean
-P=int(len(sm1))
-Q=np.zeros((P,P))
-for i in range (P):
-    for j in range(P):
-        print("\nEntre",sm1[i],'y' ,sn1[j],'\ntenemos: ')
-        dist=euclidean(sn1[i],sn1[j])
-        print('\tDistancia = ',dist)
-        simil=1/(1+dist)
-        Q[i,j]=simil
-        print('\tSimlitud = ',simil)
+#from scipy.spatial.distance import euclidean
+#P=int(len(sm1))
+#Q=np.zeros((P,P))
+#for i in range (P):
+ #   for j in range(P):
+  #      print("\nEntre",sm1[i],'y' ,sn1[j],'\ntenemos: ')
+   #     dist=euclidean(sn1[i],sn1[j])
+    #    print('\tDistancia = ',dist)
+     #   simil=1/(1+dist)
+      #  Q[i,j]=simil
+       # print('\tSimlitud = ',simil)
         
 st.write("""CASO NETFLIX""" )
 datos.loc[[0,1],["POR USTEDES"]]
