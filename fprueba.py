@@ -417,6 +417,13 @@ El metodo de imputacion de datos es mediante la media, luego de obtener los dato
 La necesidad de librerias como el pandas y el numpy nos ayudan a la lectura de datos y a mostrar los graficos¶
 Se delimito la importancia de imputacion de datos y la distancia euclidiana""" )
 
+
+
+import mymodel as m
+st.write("""Datos""")
+window=st.slider("Interaccion")
+st.write(ndatos.rum(window=window))
+
 st.write("""REFERENCIAS""" )
 st.write("""Profesor de Matematicas: John Gabriel Muñoz Cruz https://www.linkedin.com/in/jgmc
 """ )
