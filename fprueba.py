@@ -420,7 +420,7 @@ Se delimito la importancia de imputacion de datos y la distancia euclidiana""" )
 
 st.write("""PROYECTO FINAL""")
 ##df=pd.read_csv("ENCUESTA.csv")
-st.line_chart(df)
+st.line_chart(ndatos)
 
 
 st.write("""REFERENCIAS""" )
